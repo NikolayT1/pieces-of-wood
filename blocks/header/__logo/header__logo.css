@@ -1,0 +1,15 @@
+.header__logo {
+  height: 52px;
+  width: 52px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-size: cover;
+  border:4px solid rgb(197, 173, 129);
+  background-image: url("../../../images/gear.JPG");
+}
+@media screen and (max-width: 540px) {
+  .header__logo {
+    height: 42px;
+    width: 42px;
+  }
+}
